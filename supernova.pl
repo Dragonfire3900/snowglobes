@@ -85,7 +85,9 @@ close(PREAMBLE);
 
 # Put in the flux info
 
-$fluxfilename = "fluxes/".$fluxname.".dat";
+# $fluxfilename = "fluxes/".$fluxname.".dat";
+$fluxfilename = "../forward-fitting/fluxout/".$fluxname.".dat";
+
 unless(-f $fluxfilename) {
     print "Flux file name ",$fluxfilename," not found\n";
     exit;
