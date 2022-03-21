@@ -11,3 +11,6 @@ d2O            .001     0.1
 wc100kt30prct_he 100.   0.1111
 ar40kt_he      40.      0.025
 icecube	       51600.   0.1111
+dune           40.      0.025
+straight       40.      0.025
+gauss          40.      0.025
